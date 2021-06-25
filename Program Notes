@@ -1,0 +1,25 @@
+Hello!
+
+Welcome to this Siege Simulator - a game that tries to use deep learning to control the moves of a Special Agent trying
+to ward off an onset of enemies using its environment.
+
+Game Attributes:
+    - Bottles: bottles can be found on the ground, if the Special Agent steps on it, all enemies within a certain
+    hearing distance will be alerted to the area.
+        - uses an A* heuristics algorithm to find the route
+    - Lights: a light switch can be found and when turned off, the enemies only can see within a small radius while
+    our Special Agent can still clearly see due to night vision goggles.
+    - Comms: a possible attribute where the enemies can communicate with each other, so if one of the is in danger,
+    the others are alerted
+    - Cabinets: our Special Agent can hide in this cabinet for a certain period of time before it breaks, but cannot
+    shoot from it
+    - Armour: Enemies are equipped with a certain amount of armour that allows them to take more damage
+    - Grenades: the Special Agent has the ability to throw a certain number of grenades that can bounce off of walls
+
+    - Possibly:
+        - create a floor plan generator and make the various parts of the house with IDs (so the agent can hide in
+        certain items)
+        - create it where the agent only has a certain amount of time or the enemies have to go around until they find
+        the treasure
+
+The game is won when all of the enemies are defeated
